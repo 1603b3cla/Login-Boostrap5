@@ -1,0 +1,71 @@
+:root {
+    --dark: #201101;
+    --dark-x: #964c4c;
+    --light: #fff;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+
+.form-color,
+.btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.Img1 {
+    background-image: url(Img1.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Img2 {
+    background-image: url(Img2.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Img3 {
+    background-image: url(Img3.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Estilo para el botón de inicio de sesión */
+
+.btn-primary {
+    background-color: #804040;
+    /* Color de fondo del botón (azul) */
+    color: #fff;
+    /* Color del texto del botón (blanco) */
+    border: none;
+    /* Sin borde */
+    padding: 10px 20px;
+    /* Espacio interno (padding) del botón */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease;
+    /* Transición suave al cambiar el color de fondo */
+}
+
+
+/* Cambio de estilo al pasar el cursor sobre el botón */
+
+.btn-primary:hover {
+    background-color: #412323;
+    /* Color de fondo del botón al pasar el cursor (azul más oscuro) */
+}
